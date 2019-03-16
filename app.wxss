@@ -1,0 +1,5 @@
+page{
+  height: 100%;
+  font-family:Times New Roman,Georgia,Serif;
+  background-color: whitesmoke;
+}

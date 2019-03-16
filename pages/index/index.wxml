@@ -1,0 +1,27 @@
+<view class="ripple-main">
+  <view class="v-content">
+    <text class="tx">Ripple</text>
+    <view class="ripple" animation="{{animationData}}" hidden='{{hidden}}' style='{{myStyle}}'></view>
+  </view>
+  <view class='bar'>
+    <view class='tabicon'>
+      <view class='top' style='height:{{CustomBar}}px;' hidden='{{!isShow}}'>
+        <view class='menu' style='height:{{CustomBar}}px;padding-top:{{CustomBar}}px;'>menu</view>
+      </view>
+      <view class='bottom' hidden='{{!isShow}}'>
+        <view class='navlist' wx:for='{{nav}}' wx:for-item="i" wx:for-index="d">
+          <view class='item  {{isShow?"animation-nav":""}}' style='animation-delay: {{(index+1)*0.1}}s;' wx:for='{{i.navigation}}'>
+            <image mode='widthFix' src='{{item.src}}'></image>
+            <text class='string'>{{item.name}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="add1">
+    <view class='send'></view>
+  </view>
+  <view class="add">
+    <text class="iconfont icon-jia {{menuStyle}}" bindtap="onClickPaper"></text>
+  </view>
+</view>

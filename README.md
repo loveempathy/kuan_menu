@@ -5,9 +5,17 @@
 ## 效果视频
 <html>
 <video id="video" controls="" preload="none" poster="http://pwxt9ivat.bkt.clouddn.com/poster.png">
-      <source id="mp4" src="http://pwxt9ivat.bkt.clouddn.com/video.mp4" type="video/mp4">
+      <source id="mp4" src="https://cdn.loveempathy.com/video.mp4" type="video/mp4">
 </video>
-</html
+</html>
+
+<iframe 
+    height=450 
+    width=800 
+    src='http://player.youku.com/embed/XMzMxMjE0MjY4NA==' 
+    frameborder=0 
+    'allowfullscreen'>
+</iframe>
 
 ## 序言
 > 部分css代码参考网上代码

@@ -2,7 +2,7 @@
 
 .ripple-main {
 	height: 100%;
-	background: url('https://loveempathy.com/usr/uploads/2019/08/2913509953.jpg') no-repeat;
+	background: url('http://pwxt9ivat.bkt.clouddn.com/ku_an.jpg') no-repeat;
 	background-size: cover;
 }
 
@@ -17,6 +17,8 @@
 
 .tx {
 	color: white;
+	background: rgba(96,125,139,0.5);
+	width: 100%;
 }
 
 .ripple {
@@ -175,7 +177,8 @@
 .item .string {
 	color: #607d8b;
 	font-size: 25rpx;
-	text-shadow: 5rpx 5rpx 25rpx #607d8b;
+	font-weight: 600;
+	/* text-shadow: 5rpx 5rpx 25rpx #607d8b; */
 }
 
 .animation-nav {
@@ -186,7 +189,7 @@
 }
 
 .filter{
-	filter: blur(10rpx);
+	filter: blur(15rpx);
 }
 
 @keyframes bounceInDown {

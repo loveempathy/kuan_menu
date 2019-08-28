@@ -1,13 +1,13 @@
 <view class="ripple-main {{isShow?'filter':''}}">
 	<view class="v-content">
-		<text class="tx" style="padding-top: {{StatusBar}}px;line-height: {{CustomBar-StatusBar}}px;">仿酷安menu</text>
+		<view class="tx" style="height: {{CustomBar-StatusBar}}px;padding-top: {{StatusBar}}px;line-height: {{CustomBar-StatusBar}}px;">仿酷安menu</view>
 		<view class="ripple" animation="{{animationData}}" hidden='{{hidden}}' style='{{myStyle}}'></view>
 	</view>
 </view>
 
 <view class='bar'>
 	<view class='tabicon'>
-		<view hidden='{{!isShow}}' class='menu' style='height:{{CustomBar}}px;padding-top:{{CustomBar}}px;'>分享生活的点击，见证美好的明天</view>
+		<view hidden='{{!isShow}}' class='menu' style='height:{{CustomBar}}px;padding-top:{{CustomBar}}px;'>分享生活的点滴，见证美好的明天</view>
 		<view class='bottom' hidden='{{!isShow}}'>
 			<view class='navlist' wx:for='{{nav}}' wx:for-item="i" wx:for-index="d">
 				<view class='item  {{isShow?"animation-nav":""}}' style='animation-delay: {{(index+1)*0.1}}s;' wx:for='{{i.navigation}}'>

@@ -7,11 +7,7 @@
       <source id="mp4" src="https://cdn.loveempathy.com/video.mp4" type="video/mp4">
 </video>
 
-<video id="video" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
-      <source id="mp4" src="http://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
-      <source id="webm" src="http://media.w3.org/2010/05/sintel/trailer.webm" type="video/webm">
-      <source id="ogv" src="http://media.w3.org/2010/05/sintel/trailer.ogv" type="video/ogg">
-</video>
+<iframe src="//player.bilibili.com/player.html?aid=61383428&cid=106779616&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 ## 序言
 > 部分css代码参考网上代码
